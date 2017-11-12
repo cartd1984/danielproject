@@ -1,22 +1,31 @@
 const hoochButton = document.getElementById("hoochButton");
 const fancyButton = document.getElementById("fancyButton");
 
-var speakeasy = prompt("Psst...What's the password?");
-
 hoochButton.addEventListener('click', () => {
-    prompt("Psst...What's the password?");
-       function enterDoor () {
-        if (speakeasy.toUpperCase() === 'BOURBON') {
-            document.write("That's it! You may enter!");
-            } else if (speakeasy.toUpperCase() !== 'BOURBON') {
-                prompt("That ain't it. Try again. It's a liquor made in Kentucky.");
-            } else if (speakeasy.toUpperCase() !== 'BOURBON') {
-                prompt("Nope. Try again. Say...are you a fan of BOURBON?");
+    function enterDoor () {
+        var password = false;
+        var speakeasy = "BOURBON";
+        var passwordGuess = prompt("Psst...What's the password?");
+        if (passwordGuess.toUpperCase() == speakeasy) {
+            alert("That's it! You may enter!");
+            var password = true;
+            } else if (passwordGuess.toUpperCase() != speakeasy) {
+                var passwordguess2 = prompt("That ain't it. Try again. It's a liquor made in Kentucky.");
+            } if (passwordGuess2.toUpperCase() == speakeasy) {
+                alert("Congrats! You may enter.");
+                var password = true;
+            } else if (passwordGuess2.toUpperCase() != speakeasy) {
+                var passwordguess3 = prompt("Nope. Try again. Say...are you a fan of BOURBON?");
+                if (passwordguess3.toUpperCase() == speakeasy) {
+                        alert("Dude, finally! You may now enter.");
+                        var password = true;
             } else {
-                prompt("I'm a nice guy. Normally I don't do this, but you can come in.");
+                alert("I'm a nice guy. I'll got ahead and let you in.");
+                var password = true;
             }
         }
-    });
+    }
+});
     
     
     
