@@ -7,13 +7,13 @@ hoochButton.addEventListener('click', () => {
     prompt("Psst...What's the password?");
        function enterDoor () {
         if (speakeasy.toUpperCase() === 'BOURBON') {
-            document.write("<p>That's it! You may enter!</p>");
-            } else if {
-                document.write("<p>That ain't it. Try again. It's a liquor made in Kentucky.</p>");
-            } else if {
-                document.write("<p>Nope. Try again. Say...are you a fan of BOURBON?</p>");
+            document.write("That's it! You may enter!");
+            } else if (speakeasy.toUpperCase() !== 'BOURBON') {
+                prompt("That ain't it. Try again. It's a liquor made in Kentucky.");
+            } else if (speakeasy.toUpperCase() !== 'BOURBON') {
+                prompt("Nope. Try again. Say...are you a fan of BOURBON?");
             } else {
-                document.write("<p>I'm a nice guy. Normally I don't do this, but you can come in.</p>");
+                prompt("I'm a nice guy. Normally I don't do this, but you can come in.");
             }
         }
     });
