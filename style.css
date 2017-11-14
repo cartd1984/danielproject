@@ -4,9 +4,15 @@
     padding-bottom: 2em;
 }
 
-p, a, h1, h2 {
-    font-family: 'Limelight', cursive;
+p, a, h1, h2, h5, h6 {
+    font-family: 'Limelight';
     color: gold;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -24,11 +30,36 @@ iframe {
 }
 
 button {
-    padding: 20px 20px 20px 20px;
+    padding-bottom: 20px 20px 20px 20px;
     border-width: 10px 10px 10px 10px;
     border-color: gold;
 }
 
+/* image(s) */
+
+.speakimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    
+}
+
+.cocktails {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#images {
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+}
+
+/* Image Labels */
 
 
 /***************************************************************

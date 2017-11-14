@@ -1,53 +1,126 @@
 <!DOCTYPE.html>
 <html>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <title>1920s Speakeasy Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Limelight|Sacramento" rel="stylesheet">
+      </head>
+    
   <body>
-    <h1>Speakeasy 1920s page.</h1>
-      <img src=http://www-static.weddingbee.com/pics/194302/enjoy-drink-nyc-speakeasy.gif.jpg>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="speakeasy1920.html">1920s</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="speakeasy2010.html">2010s</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            </ul>
+                
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    </nav>
       
+      
+    <h1 align="center">Speakeasy 1920s page.</h1>
+    <img class='speakimg' src=http://i.dailymail.co.uk/i/pix/2013/01/27/article-0-173003B4000005DC-688_634x478.jpg>  
     
      
-    <h2>I'm trying to figure out what to put in this webpage.</h2>
-    <h3>Maybe some ideas about writing. Things I would like to write. A writing library.</h3>
-    <h4>Maybe something that's dedicated to history and prohibition, something like that.</h4>
-    <h5>Something like is 1920 like 2020? maybe pick some things and features of 1920 and 2020? </h5>
-    <h6>a Speakeasy website</h6>
+    <h2 align="center">I'm trying to figure out what to put in this webpage.</h2>
+    <div class="container pt-4">
+                <div class="row">
+            <div class="col-lg order-lg-2">
+		          <p> The history of speakeasies. Speakeasies rose to prominence during the Prohibition era, in response to the nationwide ban on alcohol. 
+            Below are some examples of speakeasies. Now, they are more commonly referred to as "retro bars", which I have in another page. Alleged to have started in a saloon in Pennsylvania, where the owner asked rowdy customers to "speak easy", to avoid any trouble from law enforcement. Also known as "blind pigs" or "blind tigers" where illegal bar owners (owners of illegal establishments?) where they would showcase wild animals to circumvent the law. "Didn't take much more than a bottle and two chairs" to start a speakeasy.</p>
+            </div>
+                    
+            <div class="col-lg order-lg-1">
+		          <p> I think I'm going to have my project be about Speakeasies, from the past to the present, focusing on the speakeasies of the 1920s and the speakeasies of today, with a focus on Louisville, Kentucky. Have images of flappers, liquor, venues of speakeasies for Louisville from the 1920s and today; I think I also want to have pictures of liquors, have examples of popular speakeasy drinks, both then and now, and I'll have to think of interactive images, maybe like a speakeasy door to enter into speakeasies of the 1920s and now, not sure what I can do with JavaScript and JQuery on this, but thank goodness I finally have an idea. </p>
+            </div>
+                    
+            <div class="col-lg order-3">
+				<p>I also need to figure out how to push this to Git and Github, and I have no idea of how to do that, I also like the idea of creating a project list in Github to have a checklist for the project. Yes yes yes!!!!!!</p>
+            </div>
+        </div>        
+      </div>  
       
-      <p>
-      Speakeasies were very popular and flourished during the 1920s, some of the more famous speakeasies are included below. (images of "The Puncheon Club", "The '21' Club" "300 Club" "El Fey").
-          
-      <img src=https://img1.etsystatic.com/166/0/13165767/il_340x270.1168505811_749m.jpg>
+      <h1 align="center">Drinks of the 1920s Speakeasies</h1>
       
+      <div class="container pt-4" id="images">
+          <div class="row">
+              <div class="col-lg order-lg-1">
+                <figure>
+				    <img class="cocktails" width="300" height="300" src=https://farm8.staticflickr.com/7460/9197733472_520af37682_o.jpg>
+				    <figcaption>
+                        <h5>Gin Rickey</h5>
+				    </figcaption>
+			     </figure>
+                  
+                    <figure>
+				    <img class="cocktails" width="300" height="300" src=http://3gqc5i3a88yk2cv8gqmqocrh.wpengine.netdna-cdn.com/wp-content/uploads/2013/09/French-75.png>
+				    <figcaption>
+                        <h5>French 75</h5>
+				    </figcaption>
+			     </figure>
+              </div>
+                  
+               <div class="col-lg order-lg-2">
+                  <figure>
+				    <img class="cocktails" width="300" height="300" src=http://easyday.snydle.com/files/2014/12/Mint-Julep.jpg>
+				    <figcaption>
+                        <h5>Mint Julep</h5>
+				    </figcaption>
+			     </figure>
+                  
+                    <figure>
+				    <img class="cocktails" width="300" height="300" src=http://3gqc5i3a88yk2cv8gqmqocrh.wpengine.netdna-cdn.com/wp-content/uploads/2016/04/tom-collins-web-res_340x340_acf_cropped.jpg>
+				    <figcaption>
+                        <h5>Tom Collins</h5>
+				    </figcaption>
+			     </figure>
+              </div>
+              
+              <div class="col-lg order-3">
+                  <figure>
+				    <img class="cocktails" width="300" height="300" src=http://www.gidgetandlarue.com/wp-content/uploads/2013/03/WhiskeySour.jpg>
+				    <figcaption>
+                        <h5>Whiskey Sour</h5>
+				    </figcaption>
+                 </figure>
+                  
+                <figure>
+				    <img class="cocktails" width="300" height="300" src=http://vignette2.wikia.nocookie.net/cocktails/images/1/19/Bees_knees-266x399.jpg/revision/latest/scale-to-width-down/200?cb=20141114190632>
+				    <figcaption>
+                        <h5>Bees Knees</h5>
+				    </figcaption>
+			     </figure>
+            </div>
+        </div>
+      </div>
       
-      
-      </p>
-      
-      
-      <p> I think I'm going to have my project be about Speakeasies, from the past to the present, focusing on the speakeasies of the 1920s and the speakeasies of today, with a focus on Louisville, Kentucky. Have images of flappers, liquor, venues of speakeasies for Louisville from the 1920s and today; I think I also want to have pictures of liquors, have examples of popular speakeasy drinks, both then and now, and I'll have to think of interactive images, maybe like a speakeasy door to enter into speakeasies of the 1920s and now, not sure what I can do with JavaScript and JQuery on this, but thank goodness I finally have an idea. 
-          
-            <img src=http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/speakeasy0415-bourbon-and-branch.jpg?itok=22W8aU4p>
-          
-          
-      </p>
-      
-      <p>
-          
-      I also need to figure out how to push this to Git and Github, and I have no idea of how to do that, I also like the idea of creating a project list in Github to have a checklist for the project. Yes yes yes!!!!!!
-          
-           <img src=http://i.dailymail.co.uk/i/pix/2013/01/27/article-0-173003B4000005DC-688_634x478.jpg>
-      
-      </p>
-      <h3>Drinks of the 1920s Speakeasies</h3>
-      <h5>Gin Rickey<img width="300" height="300" src=https://farm8.staticflickr.com/7460/9197733472_520af37682_o.jpg></h5>
-      <h5>French 75<img width="300" height="300" src=http://3gqc5i3a88yk2cv8gqmqocrh.wpengine.netdna-cdn.com/wp-content/uploads/2013/09/French-75.png></h5>
-      <h5>Mint Julep<img width="300" height="300" src=http://easyday.snydle.com/files/2014/12/Mint-Julep.jpg></h5>
-      <h5>Tom Collins<img width="300" height="300"  src=http://3gqc5i3a88yk2cv8gqmqocrh.wpengine.netdna-cdn.com/wp-content/uploads/2016/04/tom-collins-web-res_340x340_acf_cropped.jpg></h5>
-      <h5>Whiskey Sour<img width="300" height="300" src=http://www.gidgetandlarue.com/wp-content/uploads/2013/03/WhiskeySour.jpg></h5>
-      <h5>Bees Knees<img width="300" height="300" src=http://vignette2.wikia.nocookie.net/cocktails/images/1/19/Bees_knees-266x399.jpg/revision/latest/scale-to-width-down/200?cb=20141114190632></h5>
-      
-      
-      
-      
-      
-  </body>
+    </body>
 </html>

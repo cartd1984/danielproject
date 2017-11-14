@@ -14,8 +14,8 @@ hoochButton.addEventListener('click', () => {
         alert("Congrats! You may enter.");
         var password = true;
     } else if (passwordGuess2.toUpperCase() != speakeasy) {
-        var passwordguess3 = prompt("Nope. Try again. Say...are you a fan of BOURBON?");
-    } else if (passwordguess3.toUpperCase() == speakeasy) {
+        var passwordGuess3 = prompt("Nope. Try again. Say...are you a fan of BOURBON?");
+    } else if (passwordGuess3.toUpperCase() == speakeasy) {
         alert("Dude, finally! You may now enter.");
         var password = true;
     } else {
