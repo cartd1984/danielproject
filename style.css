@@ -1,18 +1,19 @@
-.prohibition {
-    display: inline-block;
-    width: 100%;
-    padding-bottom: 2em;
-}
+/* elements */
 
 p, a, h1, h2, h5, h6 {
     font-family: 'Limelight';
     color: gold;
 }
 
+h1 {
+    padding: 20px;
+}
+
 h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
 }
 
 body {
@@ -25,17 +26,7 @@ iframe {
     border-width: 10px 10px 10px 10px;
 }
 
-.nav-link {
-    color: gold;
-}
-
-button {
-    padding-bottom: 20px 20px 20px 20px;
-    border-width: 10px 10px 10px 10px;
-    border-color: gold;
-}
-
-/* image(s) */
+/* images */
 
 .speakimg {
     display: block;
@@ -53,42 +44,81 @@ button {
     text-align: center;
 }
 
-#images {
-    margin: 0;
-    padding: 10px 0;
+.bars {
+    float: left;
+    padding: 10px;
+    width: 100%;
     position: relative;
+    text-align: center;
 }
 
-/* Image Labels */
+#drinkmenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
 
-
-/***************************************************************
-    Media Query to make YouTube video respond to mobile devices
-****************************************************************/
+/******************************************************************************
+    Media Query to make YouTube video and Drink Menu respond to mobile devices
+*******************************************************************************/
 
 @media (max-width: 1100px) {
-    iframe {
-        max-height: 600px;
-        max-width: 600px;
+    iframe, #drinkmenu {
+        max-height: 650px;
+        max-width: 650px;
     }
 }
 
 @media (max-width: 900px) {
-    max-height: 450px;
-    max-width: 450px;
+    iframe, #drinkmenu {
+    max-height: 500px;
+    max-width: 500px;
+    }
 }
 
-
 @media (max-width: 750px) {
-    iframe {
-        max-height: 375px;
-        max-width: 375px;
+    iframe, #drinkmenu {
+        max-height: 405px;
+        max-width: 405px;
     }
 }
 
 @media (max-width: 500px) {
-    iframe {
-        max-height: 300px;
-        max-width: 300px;
+    iframe, #drinkmenu {
+        max-height: 325px;
+        max-width: 325px;
+    }
+}
+
+/**********************************************************************
+    Media Query to make 1920s & 2010s image respond to mobile devices
+**********************************************************************/
+
+@media (max-width: 1100px) {
+    .speakimg {
+        max-height: 550px;
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 900px) {
+    .speakimg {
+        max-height: 400px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    .speakimg {
+        max-height: 360px;
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 500px) {
+    .speakimg {
+        max-height: 285px;
+        max-width: 285px;
     }
 }
