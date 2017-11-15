@@ -1,1 +1,0 @@
-.click('button').alert("What is the password?");
