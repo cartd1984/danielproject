@@ -26,6 +26,12 @@ iframe {
     border-width: 10px 10px 10px 10px;
 }
 
+.backhome {
+    padding: 20px;
+    font-family: 'Limelight';
+    background-color: darkgray;
+}
+
 /* images */
 
 .speakimg {
